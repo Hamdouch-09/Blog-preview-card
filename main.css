@@ -95,7 +95,7 @@ main {
 
 }
 
-div.card-content p:first-child {
+div.card-content .card-tag {
     background-color: var(--main-color);
     font-size: clamp(0.75rem, 0.7rem + 0.5vw, 0.875rem);
     padding: 0.25rem;
@@ -154,7 +154,7 @@ h1 {
     height: 100%;
 }
 
-.usernam p {
+.usernam .name {
     display: grid;
     place-items: center;
     font-size: 0.875rem;
