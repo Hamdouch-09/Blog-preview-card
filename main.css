@@ -90,7 +90,7 @@ main {
 
 div.card-content p:first-child {
     background-color: var(--main-color);
-    font-size: clamp(0.75rem, 4vw + 1rem, 0.875rem);
+    font-size: clamp(0.75rem, 0.7rem + 0.5vw, 0.875rem);
     padding: 0.25rem;
     width: 5.125rem;
     text-align: center;
@@ -101,7 +101,7 @@ div.card-content p:first-child {
 time {
     display: block;
     margin-top: 0.75rem;
-    font-size: clamp(0.75rem, 3vw, 0.875rem);
+    font-size: clamp(0.75rem, 0.7rem + 0.5vw, 0.875rem);
 }
 
 h1 {
@@ -154,18 +154,13 @@ h1+p {
     font-weight: bold;
 }
 
+/* End Card */
+
+
 footer {
     margin-top: 1.5rem;
     text-align: center;
     font-size: 0.9375rem;
-}
-
-/* Mobile */
-@media (max-width: 375px) {
-    footer {
-        display: none;
-
-    }
 }
 
 footer>a {
