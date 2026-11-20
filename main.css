@@ -18,6 +18,13 @@
     padding: 0;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
 /* start figtree fonts */
 @font-face {
     font-family: 'Figtree';
@@ -71,7 +78,7 @@ main {
 }
 
 /* Mobile */
-@media (max-width: 420px) {
+@media (max-width: 26.25em) {
     .card {
         max-width: calc(100vw - (var(--padding-) * 2));
         height: auto;
@@ -106,7 +113,7 @@ time {
 
 h1 {
     margin-top: 0.75rem;
-    font-size: clamp(19px, 3vw, 24px);
+    font-size: clamp(1.1875rem, 3vw, 1.5rem);
     font-weight: bold;
     transition: all 0.2s linear;
 }
@@ -115,7 +122,7 @@ h1 {
     color: var(--main-color);
 }
 
-h1+p {
+.card-content h1+p {
     margin-top: 0.75rem;
     font-size: 1rem;
     line-height: 1.6;
@@ -123,8 +130,8 @@ h1+p {
 }
 
 /* Mobile */
-@media (max-width: 375px) {
-    h1+p {
+@media (max-width: 23.4375em) {
+    .card-content h1+p {
         font-size: 0.9375rem;
 
     }

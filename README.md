@@ -33,7 +33,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- [solution URL](https://your-solution-url.com)
+- [solution URL](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flex-m7RoLy20z-)
 - [live site URL](https://hamdouch-09.github.io/Blog-preview-card/)
 
 ## My process
