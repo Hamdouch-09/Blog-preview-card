@@ -28,7 +28,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Screenshot
 
 ![Desktop](./assets/images/Desktop.png)
-![Active states](./assets/images/active-states.png)
 ![Mobile](./assets/images/Mobile.png)
 
 ### Links
